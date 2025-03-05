@@ -15,7 +15,7 @@ This dataset (10.5281/zenodo.14969626) corresponds to the study "2D versus 3D Nu
 This Python script implements the 2D versus 3D models comparison algorithm described by Equation 3 in Section 2.3 of the article. The comparison results can be achieved by specifying the paths of the 3D model to be compared and the 2D model set in the script.
 
 ### Cal_flux
-A set of Python scripts (for 2D and 3D models respectively) used to calculate the material flux ($Q_{2D}\left(t\right)$ and $Q_{3D}\left(t\right)$) at a specific depth as described in Section 4.1.2 of the article. 
+A set of Python scripts (for 2D and 3D models respectively) used to calculate the material flux $Q_{2D}\left(t\right)$ and $Q_{3D}\left(t\right)$ at a specific depth as described in Section 4.1.2 of the article. 
 
 ### Draw_figures
 Most figures in the article were drawn with Python scripts, which involve data processing and visualization:
