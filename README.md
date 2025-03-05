@@ -5,7 +5,7 @@
 * National Key Laboratory of Earth System Numerical Modeling and Application, College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, Beijing, China;
 * Laboratory of Seismology and Physics of Earth’s Interior, School of Earth and Space Sciences, University of Science and Technology of China, Hefei, China;
 * Department of Ocean Science and Engineering, Southern University of Science and Technology, Shenzhen, China;
-\* Corresponding author: Zhong-Hai Li (li.zhonghai@ucas.ac.cn)
+\* Corresponding author: Zhong-Hai Li (li.zhonghai<at>ucas.ac.cn)
  
 ## Introduction
 This dataset (10.5281/zenodo.14969626) corresponds to the study "2D versus 3D Numerical Simulations of Mantle Plume and Lithosphere Interaction: Quantitative Comparison and Scaling Analysis". It contains codes for data processing, numerical analysis, symbolic computation, and image generation (see 2). Also included are 2D and 3D numerical model data for three scenarios: (a) models without a mantle plume (3 - 4), (b) models with only a plume head (5 - 6), and (c) models with a plume tail (7 - 8). We are confident that anyone acquiring this dataset can fully replicate and validate our work, reaching the similar conclusions. 
@@ -15,7 +15,7 @@ This dataset (10.5281/zenodo.14969626) corresponds to the study "2D versus 3D Nu
 This Python script implements the 2D versus 3D models comparison algorithm described by Equation 3 in Section 2.3 of the article. The comparison results can be achieved by specifying the paths of the 3D model to be compared and the 2D model set in the script.
 
 ### Cal_flux
-A set of Python scripts (for 2D and 3D models respectively) used to calculate the material flux (Q_{2D}\left(t\right) and Q_{3D}\left(t\right)) at a specific depth as described in Section 4.1.2 of the article. 
+A set of Python scripts (for 2D and 3D models respectively) used to calculate the material flux ($Q_{2D}\left(t\right)$ and $Q_{3D}\left(t\right)$) at a specific depth as described in Section 4.1.2 of the article. 
 
 ### Draw_figures
 Most figures in the article were drawn with Python scripts, which involve data processing and visualization:
